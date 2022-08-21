@@ -1,6 +1,15 @@
 {
     "presets": ["@babel/preset-env"],
     "plugins": [
-      ["@babel/plugin-transform-runtime"]
+      ["@babel/plugin-transform-runtime"],
+      ["module-resolver", {
+        "alias": {
+          "*":[ "./src"]
+          
+        }
+      }]
     ]
   }
+
+  // 6wZpLPm8Mu49V9c7
+  // JKbTcsrTbPRsZrsl
